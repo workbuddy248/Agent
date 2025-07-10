@@ -1,0 +1,175 @@
+2025-07-10 18:11:52 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:12:23 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:12:23 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:12:23 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:12:23 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:16:06 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:16:06 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:16:06 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:16:06 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:16:57 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:16:57 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:16:57 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:16:57 - services.template_manager - WARNING - template_manager - _load_tdd_templates_with_metadata - No TDD.md template files found, creating samples...
+2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - _create_sample_templates_with_metadata - Created sample template: login_flow.TDD.md
+2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 0 workflows
+2025-07-10 18:17:06 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:17:06 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:17:06 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:18:52 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:18:52 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:20:35 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:20:35 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:22:36 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:22:36 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:22:36 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-10 18:23:20 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:23:20 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:20 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-10 18:23:20 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-10 18:23:20 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-10 18:23:43 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-10 18:23:44 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:23:44 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:57 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:23:57 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:23:57 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-10 18:23:57 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-10 18:23:57 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-10 18:27:33 - main - ERROR - main - analyze_instruction - Error analyzing instruction: 'InstructionParserService' object has no attribute 'analyze_instruction_only'
+2025-07-10 18:38:51 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-10 18:38:51 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:38:51 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:38:51 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-10 18:38:51 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-10 18:38:51 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-10 18:38:58 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-10 18:38:58 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-10 18:38:58 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
+2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
+2025-07-10 18:38:58 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-10 18:38:58 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-10 18:38:58 - main - INFO - main - startup_event - All services initialized successfully
