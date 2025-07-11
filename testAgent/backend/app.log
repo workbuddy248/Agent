@@ -1,175 +1,843 @@
-2025-07-10 18:11:52 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:12:23 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:12:23 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:12:23 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:12:23 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:16:06 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:16:06 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:16:06 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:16:06 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:16:57 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:16:57 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:16:57 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:16:57 - services.template_manager - WARNING - template_manager - _load_tdd_templates_with_metadata - No TDD.md template files found, creating samples...
-2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - _create_sample_templates_with_metadata - Created sample template: login_flow.TDD.md
-2025-07-10 18:16:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 0 workflows
-2025-07-10 18:17:06 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:17:06 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:17:06 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:17:06 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:18:52 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:18:52 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:18:52 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:18:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:20:35 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:20:35 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:20:35 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:20:35 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:22:36 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:22:36 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:22:36 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:22:36 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:22:36 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
-2025-07-10 18:23:20 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:23:20 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:23:20 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:20 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
-2025-07-10 18:23:20 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
-2025-07-10 18:23:20 - main - INFO - main - startup_event - All services initialized successfully
-2025-07-10 18:23:43 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
-2025-07-10 18:23:44 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:23:44 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:23:44 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:44 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:57 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:23:57 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:23:57 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:23:57 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:23:57 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
-2025-07-10 18:23:57 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
-2025-07-10 18:23:57 - main - INFO - main - startup_event - All services initialized successfully
-2025-07-10 18:27:33 - main - ERROR - main - analyze_instruction - Error analyzing instruction: 'InstructionParserService' object has no attribute 'analyze_instruction_only'
-2025-07-10 18:38:51 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
-2025-07-10 18:38:51 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:38:51 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:38:51 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:38:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:38:51 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
-2025-07-10 18:38:51 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
-2025-07-10 18:38:51 - main - INFO - main - startup_event - All services initialized successfully
-2025-07-10 18:38:58 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
-2025-07-10 18:38:58 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
-2025-07-10 18:38:58 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
-2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
-2025-07-10 18:38:58 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 1 workflows
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Loaded 1 TDD templates with metadata
-2025-07-10 18:38:58 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 1, 'query': 0, 'modification': 0}
-2025-07-10 18:38:58 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
-2025-07-10 18:38:58 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
-2025-07-10 18:38:58 - main - INFO - main - startup_event - All services initialized successfully
+
+2025-07-11 01:13:49 - main - INFO - main - parse_test_instructions - Parsing instruction: test the login on cluster...
+2025-07-11 01:13:49 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsing instruction with config: test the login on cluster...
+2025-07-11 01:13:49 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analyzing instruction: test the login on cluster...
+2025-07-11 01:13:49 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analysis complete. Found 1 potential workflows, 1 parameters
+2025-07-11 01:13:49 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsed instruction: 1 workflows, 4 parameters
+2025-07-11 01:13:49 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolving workflow chain for session f4a6be72-b93b-4f5e-93d4-31eaa6665411: ['login_flow']
+2025-07-11 01:13:49 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolved workflow chain for session f4a6be72-b93b-4f5e-93d4-31eaa6665411: ['login_flow']
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - create_session - Created new session: f4a6be72-b93b-4f5e-93d4-31eaa6665411
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - update_session_status - Updated session f4a6be72-b93b-4f5e-93d4-31eaa6665411 status to: parsed
+2025-07-11 01:13:49 - main - INFO - main - parse_test_instructions - Session f4a6be72-b93b-4f5e-93d4-31eaa6665411 parsed successfully with workflows: ['login_flow']
+2025-07-11 01:13:49 - main - INFO - main - execute_test_plan - Executing test plan for session: f4a6be72-b93b-4f5e-93d4-31eaa6665411
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - update_session_status - Updated session f4a6be72-b93b-4f5e-93d4-31eaa6665411 status to: generating
+2025-07-11 01:13:49 - main - INFO - main - execute_test_workflow - Starting workflow execution for session: f4a6be72-b93b-4f5e-93d4-31eaa6665411
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - update_session_status - Updated session f4a6be72-b93b-4f5e-93d4-31eaa6665411 status to: loading_templates
+2025-07-11 01:13:49 - main - INFO - main - execute_test_workflow - Loading template for workflow: login_flow
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - update_session_status - Updated session f4a6be72-b93b-4f5e-93d4-31eaa6665411 status to: generating
+2025-07-11 01:13:49 - main - INFO - main - execute_test_workflow - Generating Playwright test for workflow: login_flow
+2025-07-11 01:13:49 - main - ERROR - main - execute_test_workflow - Error in workflow execution for session f4a6be72-b93b-4f5e-93d4-31eaa6665411: 'PlaywrightGeneratorService' object has no attribute 'generate_playwright_test'
+2025-07-11 01:13:49 - services.session_manager - INFO - session_manager - update_session_status - Updated session f4a6be72-b93b-4f5e-93d4-31eaa6665411 status to: failed
+2025-07-11 01:20:52 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:20:52 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:20:52 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:20:52 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:20:52 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:20:52 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:20:52 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:20:52 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:20:52 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:20:52 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:20:52 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:20:52 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 01:21:18 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:21:18 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:21:19 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:21:19 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:21:19 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:21:19 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:21:19 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:21:19 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:21:19 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:21:19 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:21:19 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:21:19 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 01:22:03 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:22:03 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:22:04 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:22:04 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:22:04 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:22:04 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:22:04 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:22:04 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:22:04 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:22:04 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:22:04 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:22:04 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 01:23:18 - main - INFO - main - parse_test_instructions - Parsing instruction: test login on the cluster ip...
+2025-07-11 01:23:18 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsing instruction with config: test login on the cluster ip...
+2025-07-11 01:23:18 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analyzing instruction: test login on the cluster ip...
+2025-07-11 01:23:18 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analysis complete. Found 1 potential workflows, 1 parameters
+2025-07-11 01:23:18 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsed instruction: 1 workflows, 4 parameters
+2025-07-11 01:23:18 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolving workflow chain for session 1453f17f-fa3a-4bec-9165-723f88518f2d: ['login_flow']
+2025-07-11 01:23:18 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolved workflow chain for session 1453f17f-fa3a-4bec-9165-723f88518f2d: ['login_flow']
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - create_session - Created new session: 1453f17f-fa3a-4bec-9165-723f88518f2d
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: parsed
+2025-07-11 01:23:18 - main - INFO - main - parse_test_instructions - Session 1453f17f-fa3a-4bec-9165-723f88518f2d parsed successfully with workflows: ['login_flow']
+2025-07-11 01:23:18 - main - INFO - main - execute_test_plan - Executing test plan for session: 1453f17f-fa3a-4bec-9165-723f88518f2d
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: generating
+2025-07-11 01:23:18 - main - INFO - main - execute_test_workflow - Starting workflow execution for session: 1453f17f-fa3a-4bec-9165-723f88518f2d
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: loading_templates
+2025-07-11 01:23:18 - main - INFO - main - execute_test_workflow - Loading template for workflow: login_flow
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: generating
+2025-07-11 01:23:18 - main - INFO - main - execute_test_workflow - Generating Playwright test for workflow: login_flow
+2025-07-11 01:23:18 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generating Playwright test for workflow: login_flow
+2025-07-11 01:23:18 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generated Playwright test for login_flow: 634 characters
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: executing
+2025-07-11 01:23:18 - main - ERROR - main - execute_test_workflow - Error in workflow execution for session 1453f17f-fa3a-4bec-9165-723f88518f2d: 'TestExecutorService' object has no attribute 'execute_tests'
+2025-07-11 01:23:18 - services.session_manager - INFO - session_manager - update_session_status - Updated session 1453f17f-fa3a-4bec-9165-723f88518f2d status to: failed
+2025-07-11 01:30:25 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:30:25 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:30:26 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:30:26 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:30:26 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:30:26 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:30:26 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:30:26 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:30:26 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:30:26 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:30:26 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:30:26 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 01:31:02 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:31:02 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:31:02 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:31:02 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:31:02 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:31:02 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:31:02 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:31:02 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:31:02 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:31:02 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:31:02 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:31:02 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 01:33:19 - main - INFO - main - parse_test_instructions - Parsing instruction: login to the cluster...
+2025-07-11 01:33:19 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsing instruction with config: login to the cluster...
+2025-07-11 01:33:19 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analyzing instruction: login to the cluster...
+2025-07-11 01:33:19 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analysis complete. Found 1 potential workflows, 1 parameters
+2025-07-11 01:33:19 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsed instruction: 1 workflows, 4 parameters
+2025-07-11 01:33:19 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolving workflow chain for session b76ee426-a424-4d66-b744-beacbc825afc: ['login_flow']
+2025-07-11 01:33:19 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolved workflow chain for session b76ee426-a424-4d66-b744-beacbc825afc: ['login_flow']
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - create_session - Created new session: b76ee426-a424-4d66-b744-beacbc825afc
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: parsed
+2025-07-11 01:33:19 - main - INFO - main - parse_test_instructions - Session b76ee426-a424-4d66-b744-beacbc825afc parsed successfully with workflows: ['login_flow']
+2025-07-11 01:33:19 - main - INFO - main - execute_test_plan - Executing test plan for session: b76ee426-a424-4d66-b744-beacbc825afc
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: generating
+2025-07-11 01:33:19 - main - INFO - main - execute_test_workflow - Starting workflow execution for session: b76ee426-a424-4d66-b744-beacbc825afc
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: loading_templates
+2025-07-11 01:33:19 - main - INFO - main - execute_test_workflow - Loading template for workflow: login_flow
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: generating
+2025-07-11 01:33:19 - main - INFO - main - execute_test_workflow - Generating Playwright test for workflow: login_flow
+2025-07-11 01:33:19 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generating Playwright test for workflow: login_flow
+2025-07-11 01:33:19 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generated Playwright test for login_flow: 634 characters
+2025-07-11 01:33:19 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: executing
+2025-07-11 01:33:19 - services.test_executor - INFO - test_executor - execute_tests - Executing tests for session b76ee426-a424-4d66-b744-beacbc825afc: 1 test(s)
+2025-07-11 01:33:19 - services.test_executor - INFO - test_executor - execute_tests - Executing test for workflow: login_flow
+2025-07-11 01:33:19 - services.test_executor - INFO - test_executor - execute_tests - Saved test file: test_outputs/b76ee426-a424-4d66-b744-beacbc825afc/login_flow.spec.ts
+2025-07-11 01:33:22 - services.test_executor - INFO - test_executor - _simulate_test_execution - Simulated test execution for login_flow: failed in 4.38s
+2025-07-11 01:33:22 - services.test_executor - INFO - test_executor - execute_tests - Test execution completed for session b76ee426-a424-4d66-b744-beacbc825afc: 0 passed, 1 failed
+2025-07-11 01:33:22 - services.session_manager - INFO - session_manager - update_session_status - Updated session b76ee426-a424-4d66-b744-beacbc825afc status to: failed
+2025-07-11 01:33:22 - services.session_manager - INFO - session_manager - store_execution_results - Stored execution results for session: b76ee426-a424-4d66-b744-beacbc825afc
+2025-07-11 01:33:22 - main - INFO - main - execute_test_workflow - Workflow execution completed for session: b76ee426-a424-4d66-b744-beacbc825afc
+2025-07-11 01:52:02 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 01:52:02 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 01:52:41 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 01:52:41 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 01:52:41 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:52:41 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 01:52:41 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:52:41 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 01:52:41 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 01:52:41 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 01:52:41 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 01:52:41 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 02:02:34 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:02:34 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:02:34 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 02:02:34 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:02:34 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:02:34 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:02:34 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:34 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:02:34 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:02:34 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:02:34 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 02:02:34 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 02:02:48 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:02:48 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:02:49 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 02:02:49 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:02:49 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:02:49 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:02:49 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:49 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:02:49 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:02:49 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:02:49 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 02:02:49 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 02:10:19 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:10:19 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:10:20 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 02:10:20 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:10:20 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:10:20 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:10:20 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:10:20 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:10:20 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:10:20 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:10:20 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 02:10:20 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 02:12:50 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:12:50 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:12:51 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend...
+2025-07-11 02:12:51 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:12:51 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:12:51 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:12:51 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:12:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:12:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:12:51 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:12:51 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 02:12:51 - main - INFO - main - startup_event - All services initialized successfully
+2025-07-11 02:15:04 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:15:04 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:15:05 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend with Cisco IDP + Azure OpenAI...
+2025-07-11 02:15:05 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:15:05 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:15:05 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:15:05 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:15:05 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:15:05 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:15:05 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:15:05 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized
+2025-07-11 02:15:05 - main - WARNING - main - startup_event - ⚠️  Cisco IDP + Azure OpenAI initialization failed: No module named 'aiohttp'
+2025-07-11 02:15:05 - main - INFO - main - startup_event - System will fall back to basic test generation
+2025-07-11 02:15:05 - main - INFO - main - startup_event - All services initialized successfully with Cisco IDP authentication
+2025-07-11 02:16:05 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:16:05 - main - WARNING - main - shutdown_event - Error cleaning up Cisco IDP Azure OpenAI service: No module named 'aiohttp'
+2025-07-11 02:16:05 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:29:32 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend with Azure OpenAI...
+2025-07-11 02:29:32 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:29:32 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:29:32 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:29:32 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:29:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:29:32 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:29:32 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized
+2025-07-11 02:29:32 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized in enhanced simulation with Azure OpenAI mode
+2025-07-11 02:29:32 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Authenticating with Cisco IDP...
+2025-07-11 02:29:33 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Successfully authenticated with Cisco IDP
+2025-07-11 02:29:33 - services.azure_openai_service - INFO - azure_openai_service - _initialize_llm - Initialized Azure OpenAI LLM with model: gpt-4.1
+2025-07-11 02:29:33 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:29:35 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:29:35 - main - INFO - main - startup_event - ✅ Azure OpenAI ready: Azure OpenAI connection with Cisco IDP authentication successful
+2025-07-11 02:29:35 - main - INFO - main - startup_event - All services initialized successfully with AI capabilities
+2025-07-11 02:30:30 - main - INFO - main - parse_test_instructions - Parsing instruction: test login to cluster ...
+2025-07-11 02:30:30 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsing instruction with config: test login to cluster ...
+2025-07-11 02:30:30 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analyzing instruction: test login to cluster ...
+2025-07-11 02:30:30 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analysis complete. Found 1 potential workflows, 1 parameters
+2025-07-11 02:30:30 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsed instruction: 1 workflows, 4 parameters
+2025-07-11 02:30:30 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolving workflow chain for session dff99a89-7812-4f9d-9292-0d3474fc92e1: ['login_flow']
+2025-07-11 02:30:30 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolved workflow chain for session dff99a89-7812-4f9d-9292-0d3474fc92e1: ['login_flow']
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - create_session - Created new session: dff99a89-7812-4f9d-9292-0d3474fc92e1
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: parsed
+2025-07-11 02:30:30 - main - INFO - main - parse_test_instructions - Session dff99a89-7812-4f9d-9292-0d3474fc92e1 parsed successfully with workflows: ['login_flow']
+2025-07-11 02:30:30 - main - INFO - main - execute_test_plan - Executing test plan for session: dff99a89-7812-4f9d-9292-0d3474fc92e1
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: generating
+2025-07-11 02:30:30 - main - INFO - main - execute_test_workflow - Starting workflow execution for session: dff99a89-7812-4f9d-9292-0d3474fc92e1
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: loading_templates
+2025-07-11 02:30:30 - main - INFO - main - execute_test_workflow - Loading template for workflow: login_flow
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: generating
+2025-07-11 02:30:30 - main - INFO - main - execute_test_workflow - Generating Playwright test for workflow: login_flow
+2025-07-11 02:30:30 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generating Playwright test for workflow: login_flow
+2025-07-11 02:30:30 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generated Playwright test for login_flow: 634 characters
+2025-07-11 02:30:30 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: executing
+2025-07-11 02:30:30 - services.test_executor - INFO - test_executor - execute_tests - Executing tests for session dff99a89-7812-4f9d-9292-0d3474fc92e1: 1 test(s) (real_playwright: False)
+2025-07-11 02:30:30 - services.test_executor - INFO - test_executor - execute_tests - Executing test for workflow: login_flow
+2025-07-11 02:30:30 - services.test_executor - INFO - test_executor - execute_tests - Saved test file: test_outputs/dff99a89-7812-4f9d-9292-0d3474fc92e1/login_flow.spec.ts
+2025-07-11 02:30:30 - watchfiles.main - INFO - main - _log_changes - 2 changes detected
+2025-07-11 02:30:35 - services.test_executor - INFO - test_executor - _simulate_test_execution - Simulated test execution for login_flow: passed in 11.79s
+2025-07-11 02:30:35 - services.test_executor - INFO - test_executor - execute_tests - Test execution completed for session dff99a89-7812-4f9d-9292-0d3474fc92e1: 1 passed, 0 failed
+2025-07-11 02:30:35 - services.session_manager - INFO - session_manager - update_session_status - Updated session dff99a89-7812-4f9d-9292-0d3474fc92e1 status to: completed
+2025-07-11 02:30:35 - services.session_manager - INFO - session_manager - store_execution_results - Stored execution results for session: dff99a89-7812-4f9d-9292-0d3474fc92e1
+2025-07-11 02:30:35 - main - INFO - main - execute_test_workflow - Workflow execution completed for session: dff99a89-7812-4f9d-9292-0d3474fc92e1
+2025-07-11 02:33:51 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:33:52 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:33:52 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:33:52 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:33:53 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend with Azure OpenAI...
+2025-07-11 02:33:53 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:33:53 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:33:53 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:33:53 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:33:53 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:33:53 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:33:53 - services.azure_openai_service - INFO - azure_openai_service - initialize - Initializing Azure OpenAI service with Cisco IDP authentication...
+2025-07-11 02:33:53 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Authenticating with Cisco IDP...
+2025-07-11 02:33:54 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Successfully authenticated with Cisco IDP
+2025-07-11 02:33:54 - services.azure_openai_service - INFO - azure_openai_service - _initialize_llm - Initialized Azure OpenAI LLM with model: gpt-4.1
+2025-07-11 02:33:54 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:33:55 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:33:55 - services.azure_openai_service - INFO - azure_openai_service - initialize - Azure OpenAI service with Cisco IDP authentication initialized successfully
+2025-07-11 02:33:55 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized with Azure OpenAI
+2025-07-11 02:33:55 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized in enhanced simulation with Azure OpenAI mode
+2025-07-11 02:33:55 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:33:55 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 429 Too Many Requests"
+2025-07-11 02:33:55 - openai._base_client - INFO - _base_client - _sleep_for_retry - Retrying request to /chat/completions in 0.483321 seconds
+2025-07-11 02:33:56 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 429 Too Many Requests"
+2025-07-11 02:33:56 - openai._base_client - INFO - _base_client - _sleep_for_retry - Retrying request to /chat/completions in 0.995565 seconds
+2025-07-11 02:33:58 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:33:58 - main - INFO - main - startup_event - ✅ Azure OpenAI ready: Azure OpenAI connection with Cisco IDP authentication successful
+2025-07-11 02:33:58 - main - INFO - main - startup_event - All services initialized successfully with AI capabilities
+2025-07-11 02:34:31 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:34:31 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:34:31 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:34:32 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:34:32 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend with Azure OpenAI...
+2025-07-11 02:34:32 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:34:32 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:34:32 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:34:32 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:34:32 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:34:32 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:34:32 - services.azure_openai_service - INFO - azure_openai_service - initialize - Initializing Azure OpenAI service with Cisco IDP authentication...
+2025-07-11 02:34:32 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Authenticating with Cisco IDP...
+2025-07-11 02:34:33 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Successfully authenticated with Cisco IDP
+2025-07-11 02:34:33 - services.azure_openai_service - INFO - azure_openai_service - _initialize_llm - Initialized Azure OpenAI LLM with model: gpt-4.1
+2025-07-11 02:34:33 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:34:34 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:34:34 - services.azure_openai_service - INFO - azure_openai_service - initialize - Azure OpenAI service with Cisco IDP authentication initialized successfully
+2025-07-11 02:34:34 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized with Azure OpenAI
+2025-07-11 02:34:34 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized in enhanced simulation with Azure OpenAI mode
+2025-07-11 02:34:34 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:34:35 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:34:35 - main - INFO - main - startup_event - ✅ Azure OpenAI ready: Azure OpenAI connection with Cisco IDP authentication successful
+2025-07-11 02:34:35 - main - INFO - main - startup_event - All services initialized successfully with AI capabilities
+2025-07-11 02:35:50 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:35:50 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:35:50 - main - INFO - main - shutdown_event - Shutdown complete
+2025-07-11 02:35:51 - watchfiles.main - INFO - main - _log_changes - 1 change detected
+2025-07-11 02:35:51 - main - INFO - main - startup_event - Starting E2E Testing Agent Backend with Azure OpenAI...
+2025-07-11 02:35:51 - services.instruction_parser - INFO - instruction_parser - initialize - InstructionParserService initialized
+2025-07-11 02:35:51 - services.workflow_manager - INFO - workflow_manager - initialize - Initializing Enhanced Workflow Manager Service...
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:35:51 - services.workflow_manager - INFO - workflow_manager - _initialize_mock_cluster_resources - Initialized mock cluster resources (empty for POC)
+2025-07-11 02:35:51 - services.workflow_manager - INFO - workflow_manager - initialize - Enhanced Workflow Manager Service initialized
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Initializing Enhanced Template Manager Service...
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 5 template files in templates/creation (.TDD.md: 1, .tdd.md: 4)
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login_flow (creation) with 3 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: network_hierarchy (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: inventory_workflow (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _load_single_template_with_metadata - Template login has no metadata section, using defaults: No workflow metadata section found in template
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: login (creation) with 0 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_creation_workflow (creation) with 2 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 1 template files in templates/query (.TDD.md: 0, .tdd.md: 1)
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_single_template_with_metadata - Loaded template: fabric_settings_workflow (query) with 1 parameters
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_tdd_templates_with_metadata - Found 0 template files in templates/modification (.TDD.md: 0, .tdd.md: 0)
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'inventory_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:35:51 - services.template_manager - WARNING - template_manager - _validate_dependency_graph - Workflow 'fabric_creation_workflow' depends on unknown workflow 'network_hierarchy_creation'
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _build_dependency_graph - Built dependency graph with 6 workflows
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Loaded 6 TDD templates with metadata
+2025-07-11 02:35:51 - services.template_manager - INFO - template_manager - initialize - Templates by type: {'creation': 5, 'query': 1, 'modification': 0}
+2025-07-11 02:35:51 - services.azure_openai_service - INFO - azure_openai_service - initialize - Initializing Azure OpenAI service with Cisco IDP authentication...
+2025-07-11 02:35:51 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Authenticating with Cisco IDP...
+2025-07-11 02:35:52 - services.azure_openai_service - INFO - azure_openai_service - _authenticate_and_initialize_llm - Successfully authenticated with Cisco IDP
+2025-07-11 02:35:52 - services.azure_openai_service - INFO - azure_openai_service - _initialize_llm - Initialized Azure OpenAI LLM with model: gpt-4.1
+2025-07-11 02:35:52 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:35:54 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:35:54 - services.azure_openai_service - INFO - azure_openai_service - initialize - Azure OpenAI service with Cisco IDP authentication initialized successfully
+2025-07-11 02:35:54 - services.playwright_generator - INFO - playwright_generator - initialize - PlaywrightGeneratorService initialized with Azure OpenAI
+2025-07-11 02:35:54 - services.test_executor - INFO - test_executor - initialize - TestExecutorService initialized in real Playwright mode
+2025-07-11 02:35:54 - services.azure_openai_service - INFO - azure_openai_service - generate_completion - Generating completion with Azure OpenAI (attempt 1)
+2025-07-11 02:35:56 - httpx - INFO - _client - _send_single_request - HTTP Request: POST https://chat-ai.cisco.com/openai/deployments/gpt-4.1/chat/completions?api-version=2024-07-01-preview "HTTP/1.1 200 OK"
+2025-07-11 02:35:56 - main - INFO - main - startup_event - ✅ Azure OpenAI ready: Azure OpenAI connection with Cisco IDP authentication successful
+2025-07-11 02:35:56 - main - INFO - main - startup_event - All services initialized successfully with AI capabilities
+2025-07-11 02:36:47 - main - INFO - main - parse_test_instructions - Parsing instruction: test login on cluster...
+2025-07-11 02:36:47 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsing instruction with config: test login on cluster...
+2025-07-11 02:36:47 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analyzing instruction: test login on cluster...
+2025-07-11 02:36:47 - services.instruction_parser - INFO - instruction_parser - analyze_instruction_only - Analysis complete. Found 1 potential workflows, 1 parameters
+2025-07-11 02:36:47 - services.instruction_parser - INFO - instruction_parser - parse_instruction - Parsed instruction: 1 workflows, 4 parameters
+2025-07-11 02:36:47 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolving workflow chain for session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9: ['login_flow']
+2025-07-11 02:36:47 - services.workflow_manager - INFO - workflow_manager - resolve_workflow_chain - Resolved workflow chain for session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9: ['login_flow']
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - create_session - Created new session: 7aa308e1-3002-48ad-91f3-f9ba0c64fad9
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: parsed
+2025-07-11 02:36:47 - main - INFO - main - parse_test_instructions - Session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 parsed successfully with workflows: ['login_flow']
+2025-07-11 02:36:47 - main - INFO - main - execute_test_plan - Executing test plan for session: 7aa308e1-3002-48ad-91f3-f9ba0c64fad9
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: generating
+2025-07-11 02:36:47 - main - INFO - main - execute_test_workflow - Starting workflow execution for session: 7aa308e1-3002-48ad-91f3-f9ba0c64fad9
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: loading_templates
+2025-07-11 02:36:47 - main - INFO - main - execute_test_workflow - Loading template for workflow: login_flow
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: generating
+2025-07-11 02:36:47 - main - INFO - main - execute_test_workflow - Generating Playwright test for workflow: login_flow
+2025-07-11 02:36:47 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Generating Playwright test for workflow: login_flow using Azure OpenAI
+2025-07-11 02:36:47 - services.template_manager - INFO - template_manager - _load_playwright_prompt_template - Loaded playwright prompt template
+2025-07-11 02:36:47 - services.azure_openai_service - ERROR - azure_openai_service - generate_playwright_test - Failed to generate Playwright test for login_flow: ' test, expect, Page '
+2025-07-11 02:36:47 - services.playwright_generator - ERROR - playwright_generator - generate_playwright_test - Failed to generate Playwright test using Azure OpenAI for login_flow: ' test, expect, Page '
+2025-07-11 02:36:47 - services.playwright_generator - INFO - playwright_generator - generate_playwright_test - Falling back to basic generation for login_flow
+2025-07-11 02:36:47 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: executing
+2025-07-11 02:36:47 - services.test_executor - INFO - test_executor - execute_tests - Executing tests for session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9: 1 test(s) (real_playwright: True)
+2025-07-11 02:36:47 - services.test_executor - INFO - test_executor - execute_tests - Executing test for workflow: login_flow
+2025-07-11 02:36:47 - services.test_executor - INFO - test_executor - execute_tests - Saved test file: test_outputs/7aa308e1-3002-48ad-91f3-f9ba0c64fad9/login_flow.spec.ts
+2025-07-11 02:36:47 - services.test_executor - INFO - test_executor - _execute_real_playwright_test - Executing real Playwright test for login_flow
+2025-07-11 02:36:48 - watchfiles.main - INFO - main - _log_changes - 3 changes detected
+2025-07-11 02:38:05 - services.test_executor - INFO - test_executor - _execute_real_playwright_test - Real Playwright test execution for login_flow: failed in 77.77s
+2025-07-11 02:38:05 - services.test_executor - INFO - test_executor - execute_tests - Test execution completed for session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9: 0 passed, 1 failed
+2025-07-11 02:38:05 - services.session_manager - INFO - session_manager - update_session_status - Updated session 7aa308e1-3002-48ad-91f3-f9ba0c64fad9 status to: failed
+2025-07-11 02:38:05 - services.session_manager - INFO - session_manager - store_execution_results - Stored execution results for session: 7aa308e1-3002-48ad-91f3-f9ba0c64fad9
+2025-07-11 02:38:05 - main - INFO - main - execute_test_workflow - Workflow execution completed for session: 7aa308e1-3002-48ad-91f3-f9ba0c64fad9
+2025-07-11 02:38:05 - main - INFO - main - shutdown_event - Shutting down E2E Testing Agent Backend...
+2025-07-11 02:38:05 - main - INFO - main - shutdown_event - Shutdown complete

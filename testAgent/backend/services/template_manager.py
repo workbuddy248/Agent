@@ -97,7 +97,12 @@ class TemplateManagerService:
         # Load templates from each directory
         total_loaded = 0
         for workflow_type, dir_path in workflow_dirs.items():
-            tdd_files = list(dir_path.glob("*.TDD.md"))
+            # Match both .TDD.md and .tdd.md files
+            tdd_files_upper = list(dir_path.glob("*.TDD.md"))
+            tdd_files_lower = list(dir_path.glob("*.tdd.md"))
+            tdd_files = tdd_files_upper + tdd_files_lower
+            
+            logger.info(f"Found {len(tdd_files)} template files in {dir_path} (.TDD.md: {len(tdd_files_upper)}, .tdd.md: {len(tdd_files_lower)})")
             
             for file_path in tdd_files:
                 try:
@@ -113,18 +118,41 @@ class TemplateManagerService:
     async def _load_single_template_with_metadata(self, file_path: Path, expected_type: WorkflowType):
         """Load a single TDD template file with metadata parsing"""
         
-        template_name = file_path.stem.replace(".TDD", "")
+        # Extract template name - handle both .TDD.md and .tdd.md extensions
+        if file_path.name.endswith('.TDD.md'):
+            template_name = file_path.stem.replace(".TDD", "")
+        elif file_path.name.endswith('.tdd.md'):
+            template_name = file_path.stem.replace(".tdd", "")
+        else:
+            template_name = file_path.stem
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Parse metadata and content
-            metadata, clean_content, test_cases = self._parse_template_content(content)
+            # Parse metadata and content - handle files without metadata section
+            try:
+                metadata, clean_content, test_cases = self._parse_template_content(content)
+            except ValueError as e:
+                logger.warning(f"Template {template_name} has no metadata section, using defaults: {e}")
+                # Create default metadata for templates without metadata section
+                metadata = WorkflowMetadata(
+                    workflow_type=expected_type,
+                    dependencies=[],
+                    can_run_standalone=True,
+                    requires_existing_fabric=False,
+                    estimated_duration=60,
+                    required_parameters=[],
+                    optional_parameters=[]
+                )
+                clean_content = content
+                test_cases = self._extract_test_cases(content)
             
             # Validate workflow type matches directory
             if metadata.workflow_type != expected_type:
                 logger.warning(f"Template {template_name} type mismatch: expected {expected_type}, got {metadata.workflow_type}")
+                # Override with expected type from directory
+                metadata.workflow_type = expected_type
             
             # Extract parameter placeholders from content
             parameters = self._extract_template_parameters(clean_content)
@@ -154,12 +182,21 @@ class TemplateManagerService:
     def _parse_template_content(self, content: str) -> Tuple[WorkflowMetadata, str, List[str]]:
         """Parse template content to extract metadata and test cases"""
         
-        # Extract metadata section
+        # Define both metadata patterns at the beginning
         metadata_pattern = r'## Workflow Metadata\s*\n(.*?)\n(?=##|\Z)'
+        metadata_pattern_alt = r'# Workflow Metadata\s*\n(.*?)\n(?=#|\Z)'
+        
+        # Try to find metadata section
         metadata_match = re.search(metadata_pattern, content, re.DOTALL)
+        used_pattern = metadata_pattern
         
         if not metadata_match:
-            raise ValueError("No workflow metadata section found in template")
+            # Try alternative metadata pattern
+            metadata_match = re.search(metadata_pattern_alt, content, re.DOTALL)
+            used_pattern = metadata_pattern_alt
+            
+            if not metadata_match:
+                raise ValueError("No workflow metadata section found in template")
         
         metadata_text = metadata_match.group(1).strip()
         
@@ -169,24 +206,28 @@ class TemplateManagerService:
         # Extract test cases
         test_cases = self._extract_test_cases(content)
         
-        # Remove metadata section from content for clean template
-        clean_content = re.sub(metadata_pattern, '', content, flags=re.DOTALL).strip()
+        # Remove metadata section from content for clean template (using the pattern that was found)
+        clean_content = re.sub(used_pattern, '', content, flags=re.DOTALL).strip()
         
         return metadata, clean_content, test_cases
 
     def _parse_metadata_yaml(self, metadata_text: str) -> WorkflowMetadata:
-        """Parse metadata text as YAML-like format"""
+        """Parse metadata text as YAML-like format with fallback defaults"""
         
         try:
             # Parse as YAML
             metadata_dict = yaml.safe_load(metadata_text)
+            
+            if not metadata_dict:
+                # Empty metadata, use defaults
+                return self._create_default_metadata()
             
             # Extract parameters section
             parameters_section = metadata_dict.get('parameters', {})
             required_params = parameters_section.get('required', [])
             optional_params = parameters_section.get('optional', [])
             
-            # Create metadata object
+            # Create metadata object with defaults for missing fields
             metadata = WorkflowMetadata(
                 workflow_type=WorkflowType(metadata_dict.get('workflow_type', 'creation')),
                 dependencies=metadata_dict.get('dependencies', []),
@@ -201,7 +242,62 @@ class TemplateManagerService:
             
         except yaml.YAMLError as e:
             logger.error(f"Error parsing metadata YAML: {str(e)}")
-            raise ValueError(f"Invalid metadata format: {str(e)}")
+            logger.warning("Using default metadata due to YAML parsing error")
+            return self._create_default_metadata()
+        except Exception as e:
+            logger.error(f"Unexpected error parsing metadata: {str(e)}")
+            return self._create_default_metadata()
+
+    def _create_default_metadata(self) -> WorkflowMetadata:
+        """Create default metadata for templates without metadata section"""
+        return WorkflowMetadata(
+            workflow_type=WorkflowType.CREATION,  # Will be overridden by directory
+            dependencies=[],
+            can_run_standalone=True,
+            requires_existing_fabric=False,
+            estimated_duration=60,
+            required_parameters=[],
+            optional_parameters=[]
+        )
+
+    def _infer_metadata_from_content(self, content: str, template_name: str) -> WorkflowMetadata:
+        """Infer metadata from template content when no metadata section exists"""
+        
+        content_lower = content.lower()
+        
+        # Infer dependencies based on content
+        dependencies = []
+        if "login" in content_lower and template_name != "login_flow":
+            dependencies.append("login_flow")
+        if "hierarchy" in content_lower or "area" in content_lower:
+            dependencies.append("network_hierarchy_creation")
+        if "inventory" in content_lower or "device" in content_lower:
+            dependencies.append("inventory_workflow")
+        
+        # Infer if it requires existing fabric
+        requires_existing_fabric = any(phrase in content_lower for phrase in [
+            "existing fabric", "fabric settings", "view fabric", "get fabric"
+        ])
+        
+        # Infer estimated duration based on complexity
+        step_count = content.lower().count("when:") + content.lower().count("then:")
+        estimated_duration = max(30, min(300, step_count * 20))  # 30-300 seconds
+        
+        # Extract parameter placeholders
+        parameter_pattern = r'\{\{([^}]+)\}\}'
+        found_params = re.findall(parameter_pattern, content)
+        required_parameters = list(set(param.strip() for param in found_params))
+        
+        return WorkflowMetadata(
+            workflow_type=WorkflowType.CREATION,  # Will be overridden by directory
+            dependencies=dependencies,
+            can_run_standalone=len(dependencies) == 0,
+            requires_existing_fabric=requires_existing_fabric,
+            estimated_duration=estimated_duration,
+            required_parameters=required_parameters,
+            optional_parameters=[]
+        )
+
 
     def _extract_test_cases(self, content: str) -> List[str]:
         """Extract test case names from template content"""

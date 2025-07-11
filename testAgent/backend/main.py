@@ -246,8 +246,11 @@ async def analyze_instruction(request: AnalyzeInstructionRequest):
     Analyze instruction without executing (for testing/debugging with clarification detection)
     """
     try:
-        # Parse instruction
-        parsed_result = await instruction_parser.analyze_instruction_only(request.instruction)
+        # Parse instruction with template manager integration
+        parsed_result = await instruction_parser.analyze_instruction_only(
+            request.instruction, 
+            template_manager=template_manager
+        )
         
         # Try workflow resolution to detect clarifications
         test_session_id = "analysis_test"
@@ -468,24 +471,326 @@ async def health_check():
         "version": "2.0.0"
     }
 
-# Startup event
+@app.post("/test_cisco_idp_connection")
+async def test_cisco_idp_connection():
+    """
+    Test Cisco IDP authentication and Azure OpenAI connectivity
+    """
+    try:
+        from services.azure_openai_service import azure_openai_service
+        
+        # Test Cisco IDP authentication
+        print("Testing Cisco IDP authentication...")
+        await azure_openai_service._authenticate_and_initialize_llm()
+        
+        # Get token information
+        token_info = await azure_openai_service.get_token_info()
+        
+        # Test Azure OpenAI connection
+        connection_result = await azure_openai_service.test_connection()
+        
+        if connection_result['status'] == 'success':
+            return {
+                "status": "success",
+                "message": "Cisco IDP + Azure OpenAI connection successful",
+                "authentication": {
+                    "method": "cisco_idp",
+                    "token_status": "valid" if token_info['has_token'] else "invalid",
+                    "token_expires": token_info['token_expires_at'],
+                    "idp_endpoint": token_info['cisco_idp_endpoint'],
+                    "app_key": token_info['app_key']
+                },
+                "azure_openai": {
+                    "endpoint": connection_result.get('endpoint'),
+                    "model": connection_result.get('model'),
+                    "api_version": azure_openai_service.api_version
+                }
+            }
+        else:
+            return {
+                "status": "error",
+                "message": "Cisco IDP authentication successful but Azure OpenAI connection failed",
+                "cisco_idp": {
+                    "status": "success",
+                    "token_status": "valid" if token_info['has_token'] else "invalid"
+                },
+                "azure_openai": {
+                    "status": "failed",
+                    "error": connection_result.get('message')
+                }
+            }
+        
+    except Exception as e:
+        logger.error(f"Cisco IDP + Azure OpenAI test failed: {str(e)}")
+        return {
+            "status": "error",
+            "message": f"Cisco IDP + Azure OpenAI test failed: {str(e)}",
+            "suggestion": "Check your .env configuration for Cisco IDP credentials"
+        }
+
+@app.post("/test_cisco_ai_generation")
+async def test_cisco_ai_generation():
+    """
+    Test AI-powered Playwright test generation with Cisco IDP authentication
+    """
+    try:
+        # Test with a Cisco-specific TDD template
+        test_tdd_template = """test_cisco_catalyst_login
+Given: User with valid Cisco credentials admin1/password123
+When: The user navigates to Cisco Catalyst Center login page
+When: The user enters username and password in Cisco login form
+When: The user clicks the Cisco login button
+Then: The system should redirect to Catalyst Center dashboard
+Then: The system should display "Welcome to Catalyst Center!" message
+Then: The system should show Cisco navigation menu with Design, Policy, Provision options"""
+        
+        test_cluster_config = {
+            "url": "https://172.27.248.237:443/",
+            "username": "admin1",
+            "password": "password123"
+        }
+        
+        # Generate using Cisco IDP authenticated Azure OpenAI
+        playwright_code = await playwright_generator.generate_playwright_test(
+            workflow_name="cisco_catalyst_login_test",
+            tdd_template=test_tdd_template,
+            cluster_config=test_cluster_config
+        )
+        
+        # Analyze the generated code for Cisco-specific elements
+        cisco_analysis = {
+            "generated_length": len(playwright_code),
+            "contains_cisco_elements": any(keyword in playwright_code.lower() 
+                                         for keyword in ["cisco", "catalyst", "center"]),
+            "contains_navigation": "navigation" in playwright_code.lower(),
+            "contains_welcome_message": "welcome" in playwright_code.lower(),
+            "contains_proper_selectors": "[data-test-id" in playwright_code or "text=" in playwright_code,
+            "contains_waits": "waitFor" in playwright_code,
+            "contains_assertions": "expect(" in playwright_code,
+            "line_count": len(playwright_code.split('\n')),
+            "authentication_method": "cisco_idp"
+        }
+        
+        return {
+            "status": "success",
+            "message": "Cisco IDP authenticated AI generation successful",
+            "generated_code_preview": playwright_code[:600] + "..." if len(playwright_code) > 600 else playwright_code,
+            "cisco_analysis": cisco_analysis,
+            "full_code_length": len(playwright_code),
+            "authentication": "cisco_idp_azure_openai"
+        }
+        
+    except Exception as e:
+        logger.error(f"Cisco AI generation test failed: {str(e)}")
+        return {
+            "status": "error", 
+            "message": f"Cisco AI generation test failed: {str(e)}",
+            "authentication": "cisco_idp_azure_openai"
+        }
+
+@app.get("/cisco_system_status")
+async def get_cisco_system_status():
+    """
+    Get comprehensive system status for Cisco IDP + Azure OpenAI integration
+    """
+    try:
+        from services.azure_openai_service import azure_openai_service
+        from core.config import settings
+        
+        # Check configuration
+        config_status = {
+            "cisco_client_id": bool(settings.CISCO_CLIENT_ID),
+            "cisco_client_secret": bool(settings.CISCO_CLIENT_SECRET),
+            "cisco_app_key": bool(settings.CISCO_APP_KEY),
+            "cisco_idp_endpoint": bool(settings.CISCO_IDP_ENDPOINT),
+            "azure_openai_endpoint": bool(settings.AZURE_OPENAI_ENDPOINT),
+            "deployment_name": settings.AZURE_OPENAI_DEPLOYMENT_NAME,
+            "api_version": settings.AZURE_OPENAI_API_VERSION
+        }
+        
+        # Test authentication if possible
+        auth_status = {"status": "unknown", "error": None}
+        try:
+            token_info = await azure_openai_service.get_token_info()
+            auth_status = {
+                "status": "success" if token_info['has_token'] else "no_token",
+                "token_expires": token_info['token_expires_at'],
+                "time_until_expiry": token_info['time_until_expiry']
+            }
+        except Exception as e:
+            auth_status = {
+                "status": "error",
+                "error": str(e)
+            }
+        
+        # Overall system health
+        all_config_valid = all([
+            config_status['cisco_client_id'],
+            config_status['cisco_client_secret'], 
+            config_status['cisco_app_key'],
+            config_status['cisco_idp_endpoint'],
+            config_status['azure_openai_endpoint']
+        ])
+        
+        system_health = "healthy" if all_config_valid and auth_status['status'] == "success" else "degraded"
+        
+        return {
+            "system_health": system_health,
+            "authentication_method": "cisco_idp",
+            "ai_provider": "azure_openai",
+            "configuration": config_status,
+            "authentication": auth_status,
+            "services": {
+                "instruction_parser": "initialized",
+                "workflow_manager": "initialized", 
+                "template_manager": "initialized",
+                "playwright_generator": "initialized_with_cisco_idp",
+                "test_executor": "initialized"
+            },
+            "timestamp": datetime.utcnow().isoformat()
+        }
+        
+    except Exception as e:
+        return {
+            "system_health": "error",
+            "error": str(e),
+            "timestamp": datetime.utcnow().isoformat()
+        }
+
+
+@app.post("/test_azure_openai_connection")
+async def test_azure_openai_connection():
+    """
+    Test Azure OpenAI connectivity and generation capabilities
+    """
+    try:
+        from services.azure_openai_service import azure_openai_service
+        
+        # Test basic connection
+        connection_result = await azure_openai_service.test_connection()
+        
+        if connection_result['status'] == 'success':
+            # Test actual generation
+            test_prompt = """Generate a simple Playwright test that:
+1. Navigates to https://example.com
+2. Clicks a login button
+3. Verifies the page title"""
+            
+            generation_result = await azure_openai_service.generate_completion(
+                prompt=test_prompt,
+                max_tokens=500,
+                system_prompt="You are a Playwright test expert. Generate concise, working test code."
+            )
+            
+            return {
+                "status": "success",
+                "message": "Azure OpenAI connection and generation successful",
+                "connection_details": connection_result,
+                "generation_test": {
+                    "prompt_length": len(test_prompt),
+                    "response_length": len(generation_result.get('content', '')),
+                    "model_used": generation_result.get('model', 'unknown'),
+                    "tokens_used": generation_result.get('usage', {})
+                }
+            }
+        else:
+            return {
+                "status": "error",
+                "message": "Azure OpenAI connection failed",
+                "details": connection_result
+            }
+        
+    except Exception as e:
+        logger.error(f"Azure OpenAI connection test failed: {str(e)}")
+        return {
+            "status": "error",
+            "message": f"Azure OpenAI test failed: {str(e)}",
+            "suggestion": "Check your .env configuration and API credentials"
+        }
+
+@app.post("/test_ai_playwright_generation")
+async def test_ai_playwright_generation():
+    """
+    Test AI-powered Playwright test generation
+    """
+    try:
+        # Test with a sample TDD template
+        test_tdd_template = """test_sample_login
+Given: User with valid credentials admin/password123
+When: The user navigates to https://example.com/login
+When: The user enters username and password
+When: The user clicks login button
+Then: The system should redirect to dashboard
+Then: The system should display welcome message"""
+        
+        test_cluster_config = {
+            "url": "https://example.com",
+            "username": "admin",
+            "password": "password123"
+        }
+        
+        # Generate using AI
+        playwright_code = await playwright_generator.generate_playwright_test(
+            workflow_name="sample_login_test",
+            tdd_template=test_tdd_template,
+            cluster_config=test_cluster_config
+        )
+        
+        # Analyze the generated code
+        analysis = {
+            "generated_length": len(playwright_code),
+            "contains_imports": "import" in playwright_code,
+            "contains_test_function": "test(" in playwright_code,
+            "contains_expect": "expect(" in playwright_code,
+            "contains_page_actions": "page." in playwright_code,
+            "line_count": len(playwright_code.split('\n'))
+        }
+        
+        return {
+            "status": "success",
+            "message": "AI Playwright generation successful",
+            "generated_code_preview": playwright_code[:500] + "..." if len(playwright_code) > 500 else playwright_code,
+            "analysis": analysis,
+            "full_code_length": len(playwright_code)
+        }
+        
+    except Exception as e:
+        logger.error(f"AI Playwright generation test failed: {str(e)}")
+        return {
+            "status": "error", 
+            "message": f"AI generation test failed: {str(e)}"
+        }
+
+# Add to startup event
 @app.on_event("startup")
 async def startup_event():
     """
     Initialize services on startup
     """
-    logger.info("Starting E2E Testing Agent Backend...")
+    logger.info("Starting E2E Testing Agent Backend with Azure OpenAI...")
     
     # Initialize all services
     await instruction_parser.initialize()
     await workflow_manager.initialize()
     await template_manager.initialize()
-    await playwright_generator.initialize()
+    await playwright_generator.initialize()  # Now includes Azure OpenAI
     await test_executor.initialize()
     
-    logger.info("All services initialized successfully")
+    # Test Azure OpenAI connection on startup
+    try:
+        from services.azure_openai_service import azure_openai_service
+        connection_result = await azure_openai_service.test_connection()
+        if connection_result['status'] == 'success':
+            logger.info(f"✅ Azure OpenAI ready: {connection_result.get('message', 'Connected')}")
+        else:
+            logger.warning(f"⚠️  Azure OpenAI connection issue: {connection_result.get('message', 'Unknown error')}")
+    except Exception as e:
+        logger.warning(f"⚠️  Azure OpenAI initialization failed: {str(e)}")
+        logger.info("System will fall back to basic test generation")
+    
+    logger.info("All services initialized successfully with AI capabilities")
 
-# Shutdown event
+# Add to shutdown event  
 @app.on_event("shutdown")
 async def shutdown_event():
     """
@@ -495,6 +800,13 @@ async def shutdown_event():
     
     # Cleanup resources
     await session_manager.cleanup_expired_sessions()
+    
+    # Cleanup Azure OpenAI service
+    try:
+        from services.azure_openai_service import azure_openai_service
+        await azure_openai_service.cleanup()
+    except Exception as e:
+        logger.warning(f"Error cleaning up Azure OpenAI service: {e}")
     
     logger.info("Shutdown complete")
 

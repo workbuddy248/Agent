@@ -1,0 +1,48 @@
+# E2E Testing Agent Backend Requirements with Cisco IDP + Azure OpenAI
+# File: backend/requirements.txt
+
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP client for API calls
+aiohttp==3.9.1
+httpx==0.25.2
+requests==2.31.0
+
+# LangChain for Azure OpenAI integration
+langchain
+langchain-openai
+langchain-core
+
+# OpenAI (used by LangChain)
+openai>=1.6.1
+
+# Template and configuration
+pyyaml==6.0.1
+jinja2==3.1.2
+
+# Date/time handling
+python-dateutil==2.8.2
+
+# File handling
+pathlib2==2.3.7
+
+# Async utilities
+asyncio-throttle==1.0.2
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development (optional)
+black==23.11.0
+flake8==6.1.0
